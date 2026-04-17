@@ -14,12 +14,13 @@ Primarily focused on **ColorOS (COS)**, **OxygenOS (OOS)**, and **MIUI** ports f
 ---
 
 ## 🚀 Flashing Guide
-1. **Unlock bootloader** (official Xiaomi method).
-2. **Install recovery** (TWRP/OrangeFox recommended).
+1. **Unlock bootloader**
+2. **Install recovery** (Latest OrangeFox recommended).
 3. **Download build** from [Releases](../../releases).
-4. **Wipe**: system, data, cache (do not touch `internal storage` unless clean install).
+4. **Wipe**: system, data, cache 
 5. **Flash zip** via recovery.
-6. **Reboot** and set up your device.
+6. **Format Data**
+7. **Reboot** and set up your device.
 
 ---
 
