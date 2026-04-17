@@ -1,62 +1,59 @@
-# Redmi 9T / POCO M3 OEM Ports
+# OEM Ports for Redmi 9T / POCO M3
 
-This repository hosts my custom OEM ports for **Redmi 9T** and **POCO M3** devices.  
-The goal is to provide clean, stable, and minimal builds that preserve essential features while optimizing performance.
-
----
-
-## 📱 Supported Devices
-- Xiaomi Redmi 9T (lime)
-- Xiaomi POCO M3 (citrus)
+Custom OEM firmware ports maintained by **Shyam aka ~ JustaThinker**.  
+Primarily focused on **ColorOS (COS)**, **OxygenOS (OOS)**, and **MIUI** ports for **Redmi 9T (lime)** and **POCO M3 (citrus)**.
 
 ---
 
-## ✨ Features
-- OEM-based builds with device-specific optimizations
-- Minimal bloat for smoother performance
-- Preserved essential functionality (camera, audio, connectivity)
-- Regular updates and refinements
+## 🔧 Project Vision
+- Provide refined OEM ports adapted for these devices
+- Maintain stability while keeping builds minimal and close to stock
+- Ensure all essential hardware features (camera, audio, connectivity, sensors) remain functional
+- Serve as a base for further customization and community development
+
+---
+
+## 📂 Repository Structure
+- `/device` → Device‑specific configs and trees
+- `/vendor` → Proprietary blobs adapted from OEM sources
+- `/kernel` → Kernel sources or prebuilt images
+- `/patches` → Applied fixes and optimizations
+
+---
+
+## 🚀 Flashing Guide
+1. **Unlock bootloader** (official Xiaomi method).
+2. **Install recovery** (TWRP/OrangeFox recommended).
+3. **Download build** from [Releases](../../releases).
+4. **Wipe**: system, data, cache (do not touch `internal storage` unless clean install).
+5. **Flash zip** via recovery.
+6. **Reboot** and set up your device.
 
 ---
 
 ## ⚠️ Disclaimer
-- These builds are provided **as-is** without warranty.  
-- I am not responsible for any damage, bricking, or data loss.  
-- Please ensure you know how to flash and recover your device before proceeding.
+- Provided *as‑is* with no guarantees.
+- Flashing custom firmware carries risk — proceed only if you understand recovery methods.
+- I am not responsible for bricked devices or data loss.
 
 ---
 
-## 📥 Installation
-1. Unlock your bootloader.
-2. Install a custom recovery (e.g., TWRP).
-3. Download the latest build from the [Releases](../../releases) section.
-4. Wipe necessary partitions (system, data, cache).
-5. Flash the zip file.
-6. Reboot and enjoy.
+## 📝 Notes for Developers
+- Ports are based on **COS, OOS, and MIUI OEM firmware dumps**, adapted for Redmi 9T / POCO M3.
+- Contributions are welcome: submit pull requests with clear commit messages.
+- Bug reports should include logs (`adb logcat`, `dmesg`) for effective debugging.
 
 ---
 
-## 🛠️ Development Notes
-- Ports are based on OEM firmware adapted for Redmi 9T and POCO M3.
-- Contributions, bug reports, and suggestions are welcome.
-- Logs and detailed issue reports help improve stability.
+## 🤝 Credits
+- **Nischay** — collaboration and testing support  
+- **Mohan** — contributions and guidance  
+- Xiaomi community for device trees and firmware references  
+- ROM/porting community for shared knowledge  
+- Testers and contributors who help refine builds
 
 ---
 
-## 🤝 Contributing
-If you’d like to contribute:
-- Fork the repo
-- Make your changes
-- Submit a pull request
-
----
-
-## 📧 Contact
-Maintained by **Shyam aka ~ JustaThinker**  
-For queries, reach out via GitHub Issues.
-
----
-
-## ⭐ Acknowledgements
-- Xiaomi community for device trees and firmware references
-- ROM development community for guidance and resources
+## 📧 Maintainer
+**Shyam aka ~ JustaThinker**  
+Reach out via GitHub Issues for queries or collaboration.
