@@ -5,6 +5,15 @@ Primarily focused on **ColorOS (COS)**, **OxygenOS (OOS)**, and **MIUI** ports f
 
 ---
 
+## 📦 Supported Devices
+
+| Device Name | Codename | Status |
+|-------------|----------|--------|
+| Xiaomi Redmi 9T | lime    | ✅ Supported |
+| Xiaomi POCO M3  | citrus  | ✅ Supported |
+
+---
+
 ## 🔧 Project Vision
 - Provide refined OEM ports adapted for these devices
 - Maintain stability while keeping builds minimal and close to stock
