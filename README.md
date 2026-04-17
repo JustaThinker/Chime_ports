@@ -13,14 +13,6 @@ Primarily focused on **ColorOS (COS)**, **OxygenOS (OOS)**, and **MIUI** ports f
 
 ---
 
-## 📂 Repository Structure
-- `/device` → Device‑specific configs and trees
-- `/vendor` → Proprietary blobs adapted from OEM sources
-- `/kernel` → Kernel sources or prebuilt images
-- `/patches` → Applied fixes and optimizations
-
----
-
 ## 🚀 Flashing Guide
 1. **Unlock bootloader** (official Xiaomi method).
 2. **Install recovery** (TWRP/OrangeFox recommended).
@@ -38,16 +30,9 @@ Primarily focused on **ColorOS (COS)**, **OxygenOS (OOS)**, and **MIUI** ports f
 
 ---
 
-## 📝 Notes for Developers
-- Ports are based on **COS, OOS, and MIUI OEM firmware dumps**, adapted for Redmi 9T / POCO M3.
-- Contributions are welcome: submit pull requests with clear commit messages.
-- Bug reports should include logs (`adb logcat`, `dmesg`) for effective debugging.
-
----
-
 ## 🤝 Credits
-- **Nischay** — collaboration and testing support  
-- **Mohan** — contributions and guidance  
+- **Mohaninstantnoodlep** — Guidance and fixes  
+- **Nischay_12089** — contributions and guidance  
 - Xiaomi community for device trees and firmware references  
 - ROM/porting community for shared knowledge  
 - Testers and contributors who help refine builds
